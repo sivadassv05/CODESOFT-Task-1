@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Portfolio</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+        body {
+            background-color: #fff;
+            color: #333;
+        }
+        header {
+            background-color: #333;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+        }
+        header .logo {
+            font-size: 20px;
+            font-weight: bold;
+        }
+        header .logo span {
+            color: #00bfff;
+        }
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 20px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: bold;
+        }
+        nav ul li a:hover {
+            color: #00bfff;
+        }
+        .hero {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 50px;
+            background-color: #444;
+            color: white;
+        }
+        .hero-text {
+            max-width: 50%;
+        }
+        .hero-text h1 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+        .hero-text p {
+            font-size: 18px;
+            margin-bottom: 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #00bfff;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 5px;
+            text-decoration: none;
+        }
+        .btn:hover {
+            background-color: #0099cc;
+        }
+        /* About Me Section */
+        .about {
+            display: flex;
+            align-items: center;
+            padding: 50px;
+            gap: 30px;
+        }
+        .about-image img {
+            width: 250px;
+            border-radius: 10px;
+        }
+        .about-text h2 {
+            font-size: 28px;
+            margin-bottom: 15px;
+        }
+        .about-text p {
+            margin-bottom: 15px;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="logo">Online <span>Portfolio</span></div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About Me</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#works">Works</a></li>
+                <li><a href="#blog">Blog</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="home" class="hero">
+        <div class="hero-text">
+            <h1>ALEXANDER SCOTTISH</h1>
+            <p>Hi, I am a Professional Developer and ICT Degree holder. I have five years experience in IT Sector as an ICT Lecturer, I'd like...</p>
+            <a href="#contact" class="btn">Hire Me</a>
+        </div>
+        <div class="hero-image">
+            <img src="siva.jpeg" alt="Profile Image" width="300">
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="about">
+        <div class="about-image">
+            <img src="siva.jpeg" alt="About Me">
+        </div>
+        <div class="about-text">
+            <h2>ABOUT ME</h2>
+            <p>I am a Developer blending expertise with industry know-how to guide your next property development.</p>
+            <p>Software Developers use software development languages and tools to write, edit, maintain, and test computer software. They follow the software development lifecycle (SDLC) to plan, design, build, test, and deploy software applications, ranging from websites and mobile applications to video games.</p>
+            <a href="resume.pdf" class="btn" download>Download Resume</a>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2025 Your Name. All rights reserved.</p>
+    </footer>
+</body>
+</html>
